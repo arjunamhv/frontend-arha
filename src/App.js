@@ -288,7 +288,7 @@ function App() {
               className="col-lg-6 col-md-6 col-xs-10 wow fadeInUp"
               data-wow-delay="0.6s"
             >
-              <form role="form" method="post" action="#">
+              <form action="." method="post">
                 <input
                   name="name"
                   type="text"
