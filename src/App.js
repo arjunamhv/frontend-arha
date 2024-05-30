@@ -1,4 +1,4 @@
-import Pentest from './components/pentest';
+import Pentest from "./components/pentest";
 
 function App() {
   return (
@@ -288,7 +288,9 @@ function App() {
               className="col-lg-6 col-md-6 col-xs-10 wow fadeInUp"
               data-wow-delay="0.6s"
             >
+              {/* eslint-disable-next-line */}
               <form action="." method="post">
+                {/* eslint-disable-next-line */}
                 <input
                   name="name"
                   type="text"
@@ -296,6 +298,7 @@ function App() {
                   id="name"
                   placeholder="Your Name"
                 />
+                {/* eslint-disable-next-line */}
                 <input
                   name="email"
                   type="email"
@@ -303,6 +306,7 @@ function App() {
                   id="email"
                   placeholder="Your Email"
                 />
+                {/* eslint-disable-next-line */}
                 <textarea
                   name="message"
                   rows={5}
@@ -311,6 +315,7 @@ function App() {
                   placeholder="Your Message"
                   defaultValue={""}
                 />
+                {/* eslint-disable-next-line */}
                 <input
                   name="send"
                   type="submit"
@@ -329,10 +334,7 @@ function App() {
       <div id="pentest" className="section">
         <div className="container">
           <div className="row">
-            <div
-              className="col-md-12 wow fadeInUp"
-              data-wow-delay="0.6s"
-            >
+            <div className="col-md-12 wow fadeInUp" data-wow-delay="0.6s">
               <Pentest />
             </div>
           </div>
