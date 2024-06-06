@@ -16,6 +16,10 @@ body
 #work .fp-slide,
 #work .fp-tableCell,
 
+#pentest,
+#pentest .fp-slide,
+#pentest .fp-tableCell,
+
 #contact,
 #contact .fp-slide,
 #contact .fp-tableCell,
@@ -23,10 +27,6 @@ body
 #our-team,
 #our-team .fp-slide,
 #our-team .fp-tableCell,
-
-#pentest,
-#pentest .fp-slide,
-#pentest .fp-tableCell,
 
 footer,
 footer .fp-slide,
