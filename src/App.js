@@ -104,164 +104,93 @@ function App() {
         </div>
       </div>
       {/* end work */}
-      {/* start about */}
-      <div id="about" className="section">
+      {/* start Pentest */}
+      <div id="pentest" className="section">
         <div className="container">
           <div className="row">
-            <div
-              className="col-md-6 col-xs-11 wow fadeInLeft"
-              data-wow-delay="0.9s"
-            >
-              <h2>ABOUT ARHAMINER</h2>
-              <h4>DESIGNER &amp; DEVELOPER</h4>
-              <p>
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna
-                aliquam erat volutpat.
-              </p>
-              <p>
-                Dolore magna aliquam erat volutpat. Lorem ipsum dolor sit amet,
-                consectetuer adipiscing elit, sed diam nonummy nibh euismod
-                tincidunt ut laoreet.
-              </p>
-            </div>
-            <div
-              className="col-md-6 col-xs-11 wow fadeInRight"
-              data-wow-delay="0.9s"
-            >
-              <span className="text-top">
-                Web Design <small>95%</small>
-              </span>
-              <div className="progress">
-                <div
-                  className="progress-bar progress-bar-danger"
-                  role="progressbar"
-                  aria-valuenow={60}
-                  aria-valuemin={0}
-                  aria-valuemax={100}
-                  style={{ width: "95%" }}
-                />
-              </div>
-              <span>
-                Mobile Apps <small>80%</small>
-              </span>
-              <div className="progress">
-                <div
-                  className="progress-bar progress-bar-danger"
-                  role="progressbar"
-                  aria-valuenow={80}
-                  aria-valuemin={0}
-                  aria-valuemax={100}
-                  style={{ width: "80%" }}
-                />
-              </div>
-              <span>
-                SEO Stuffs <small>70%</small>
-              </span>
-              <div className="progress">
-                <div
-                  className="progress-bar progress-bar-danger"
-                  role="progressbar"
-                  aria-valuenow={60}
-                  aria-valuemin={0}
-                  aria-valuemax={100}
-                  style={{ width: "70%" }}
-                />
-              </div>
-              <span>
-                HTLM5 &amp; CSS3 <small>90%</small>
-              </span>
-              <div className="progress">
-                <div
-                  className="progress-bar progress-bar-danger"
-                  role="progressbar"
-                  aria-valuenow={60}
-                  aria-valuemin={0}
-                  aria-valuemax={100}
-                  style={{ width: "90%" }}
-                />
-              </div>
+            <div className="col-md-12 wow fadeInUp" data-wow-delay="0.6s">
+              <Pentest />
             </div>
           </div>
         </div>
       </div>
-      {/* end about */}
-      {/* start portfolio */}
-      <div id="portfolio" className="section">
+      {/* end Pentest */}
+      {/* start our-team */}
+      <div id="our-team" className="section">
         <div className="container">
           <div className="row">
             <div className="col-md-12">
-              <h2 className="wow bounce">PORTFOLIO</h2>
+              <h2 className="wow bounce">Our Team</h2>
             </div>
             <div className="col-md-4 col-xs-6 wow fadeIn" data-wow-delay="0.6s">
-              <div className="portfolio-thumb">
+              <div className="our-team-thumb">
                 <img
-                  src="images/portfolio-img1.jpg"
+                  src="images/our-team-img1.jpg"
                   className="img-responsive"
-                  alt="portfolio img"
+                  alt="our-team img"
                 />
-                <div className="portfolio-overlay">
-                  <h4>Web Design</h4>
-                  <h5>Author: Cindy</h5>
+                <div className="our-team-overlay">
+                  <h4>Arjuna Mahavira</h4>
+                  <h5>CEO</h5>
                 </div>
               </div>
             </div>
             <div className="col-md-4 col-xs-6 wow fadeIn" data-wow-delay="0.6s">
-              <div className="portfolio-thumb">
+              <div className="our-team-thumb">
                 <img
-                  src="images/portfolio-img2.jpg"
+                  src="images/our-team-img2.jpg"
                   className="img-responsive"
-                  alt="portfolio img"
+                  alt="our-team img"
                 />
-                <div className="portfolio-overlay">
-                  <h4>Web App</h4>
-                  <h5>Author: Linda</h5>
+                <div className="our-team-overlay">
+                  <h4>Habibullah Kharis Pramudita</h4>
+                  <h5>Hipster</h5>
                 </div>
               </div>
             </div>
             <div className="col-md-4 col-xs-6 wow fadeIn" data-wow-delay="0.6s">
-              <div className="portfolio-thumb">
+              <div className="our-team-thumb">
                 <img
-                  src="images/portfolio-img3.jpg"
+                  src="images/our-team-img3.jpg"
                   className="img-responsive"
-                  alt="portfolio img"
+                  alt="our-team img"
                 />
-                <div className="portfolio-overlay">
-                  <h4>Mobile App</h4>
-                  <h5>Author: Kate</h5>
+                <div className="our-team-overlay">
+                  <h4>Adham Roy Bhafiel</h4>
+                  <h5>Hustler</h5>
                 </div>
               </div>
             </div>
             <div className="col-md-6 col-xs-6 wow fadeIn" data-wow-delay="0.6s">
-              <div className="portfolio-thumb">
+              <div className="our-team-thumb">
                 <img
-                  src="images/portfolio-img4.jpg"
+                  src="images/our-team-img4.jpg"
                   className="img-responsive"
-                  alt="portfolio img"
+                  alt="our-team img"
                 />
-                <div className="portfolio-overlay">
-                  <h4>Old Artwork</h4>
-                  <h5>Author: Catherine</h5>
+                <div className="our-team-overlay">
+                  <h4>Indah Kristiani</h4>
+                  <h5>Hacker</h5>
                 </div>
               </div>
             </div>
             <div className="col-md-6 col-xs-6 wow fadeIn" data-wow-delay="0.6s">
-              <div className="portfolio-thumb">
+              <div className="our-team-thumb">
                 <img
-                  src="images/portfolio-img5.jpg"
+                  src="images/our-team-img5.jpg"
                   className="img-responsive"
-                  alt="portfolio img"
+                  alt="our-team img"
                 />
-                <div className="portfolio-overlay">
-                  <h4>New Animation</h4>
-                  <h5>Author: Kathy</h5>
+                <div className="our-team-overlay">
+                  <h4>Erika Putri Lestari</h4>
+                  <h5>Sales and Marketing</h5>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      {/* end portfolio */}
+      {/* end our-team */}
       {/* start contact */}
       <div id="contact" className="section">
         <div className="container">
@@ -330,17 +259,6 @@ function App() {
         </div>
       </div>
       {/* end contact */}
-      {/* start Pentest */}
-      <div id="pentest" className="section">
-        <div className="container">
-          <div className="row">
-            <div className="col-md-12 wow fadeInUp" data-wow-delay="0.6s">
-              <Pentest />
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* end Pentest */}
       {/* start footer */}
       <footer>
         <div className="container">
