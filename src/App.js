@@ -202,14 +202,13 @@ function App() {
               <address>
                 <p className="contact-title">CONTACT US</p>
                 <p>
-                  <i className="fa fa-phone" /> 090-080-0760
+                  <i className="fa fa-phone" /> +62-8211-6654-087
                 </p>
                 <p>
-                  <i className="fa fa-envelope" /> info@company.com
+                  <i className="fa fa-envelope" /> bisaaimail@gmail.com
                 </p>
                 <p>
-                  <i className="fa fa-map-marker" /> 120 Old Walking Street, GL
-                  16060
+                  <i className="fa fa-map-marker" /> Jln. Banda A no.30 Kel. Citarum Kec. Bandung Wetan, Kota Bandung, Jawa Barat 40115
                 </p>
               </address>
             </div>
@@ -265,9 +264,9 @@ function App() {
           <div className="row">
             <div className="col-md-12 wow fadeIn" data-wow-delay="0.9s">
               <p>
-                Copyright © 2018 Lavish Personal Profile. Designed by{" "}
-                <a rel="nofollow noopener" href="https://templatemo.com">
-                  templatemo
+                Copyright © 2024 ARHAMINER. Studi independen bersertifikat {" "}
+                <a rel="nofollow noopener" href="https://bisa.ai">
+                  BISA.AI
                 </a>
               </p>
               <ul className="social-icon">
