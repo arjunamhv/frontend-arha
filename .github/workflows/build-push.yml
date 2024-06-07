@@ -44,16 +44,11 @@ jobs:
     needs: build_push_docker
     runs-on: ubuntu-latest
     steps:
-      - name: Set up SSH key
-        run: |
-          echo "$SSH_KEY" > key.pem
-          chmod 400 key.pem
-          hostname=$(hostname)
-          ssh-keygen -t rsa -C "$hostname" -f "$HOME/.ssh/id_rsa" -P ""
-
-      - name: Display SSH public key
-        run: cat $HOME/.ssh/id_rsa.pub
+      - name: Install sshpass
+        run: sudo apt update && sudo apt install -y sshpass
 
       - name: Execute SSH command
+        env:
+          SSH_PASSWORD: ${{ secrets.SSH_PASSWORD }}
         run: |
-          ssh -i key.pem -o "StrictHostKeyChecking no" root@110.239.67.185 "cd arhaminer/ && microk8s.kubectl apply -f arhaminer-front.yaml"
+          sshpass -p "$SSH_PASSWORD" ssh root@110.239.67.185 "cd arhaminer/ && microk8s.kubectl apply -f arhaminer-front.yaml"
