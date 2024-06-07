@@ -12,7 +12,7 @@ function App() {
               <h3>Solusi Keamanan Siber</h3>
               <img src="images/logo.png" alt="Logo" />
               <h2 className="rotate">
-                Penetration Testing, Vulnerability Assessment, Phishing
+                Penetration Testing, Vulnerability Assessment, Pentest
                 Simulation
               </h2>
               <p>
@@ -90,9 +90,9 @@ function App() {
                   <i className="fa fa-solid fa-unlock-keyhole" />
                 </div>
                 <div className="media-body">
-                  <h3 className="media-heading">Phishing Simulation</h3>
+                  <h3 className="media-heading">Pentest Simulation</h3>
                   <p>
-                    Dengan melakukan Simulasi Phishing, literasi keamanan yang
+                    Dengan melakukan Simulasi Pentest, literasi keamanan yang
                     rendah atau kerentanan keamanan pada SDM yang berisiko
                     diserang dapat diidentifikasi, dan mereka bisa segera
                     memperoleh pelatihan yang tepat.
